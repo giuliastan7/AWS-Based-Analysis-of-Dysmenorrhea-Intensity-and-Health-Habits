@@ -1,0 +1,39 @@
+This project explores the relationship between dysmenorrhea (menstrual pain intensity) and various health and lifestyle factors such as stress, diet, physical activity, BMI, and smoking status.  
+The dataset is derived from my master's thesis original database.
+
+Tools & Technologies
+-Amazon S3: Data storage (CSV format)
+-AWS Athena: SQL-based querying of external tables
+-Amazon QuickSight: Interactive data visualization
+-SQL: Used for data exploration and subgroup analysis
+
+
+
+SQL Queries & Insights
+
+1. Pain Intensity vs. Perceived Stress
+Calculated the average pain level for each reported stress score.
+ Insight: Higher stress levels are associated with increased menstrual pain.
+
+ 2. Pain Comparison: Smokers vs. Non-Smokers
+Grouped data by `smoking_status` and computed average pain intensity.
+ Insight: Smokers experience slightly higher average pain.
+
+3. Pain vs. Fast Food & Processed Meat Consumption
+Grouped by `fast_food_frequency` and `processed_meat_frequency`.
+ Insight: Certain dietary combinations show higher pain levels.
+
+ 4. Combined Analysis: Stress × Physical Activity
+Examined the interaction between perceived stress and physical activity levels.
+ Insight: Physical activity may reduce the impact of stress on pain.
+
+ 5. Top 5 Pain-Intensifying Diet Combinations
+Identified the most pain-associated combinations of fast food, meat, and fish intake.
+ Insight: Specific eating patterns correlate with severe symptoms.
+
+ 6. Subgroup Analysis: BMI > 25 (Overweight)
+Filtered for individuals with BMI > 25 and analyzed how activity and smoking affect pain.
+ Insight: Overweight individuals who are sedentary or smoke show increased pain.
+
+
+
