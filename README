@@ -11,11 +11,11 @@ Tools & Technologies
 
 Additional Files:
 
-1)A PDF version of the interactive dashboard created in Amazon QuickSight is included in this repository under the name dashboard_visual_summary.pdf. 
+1)A PDF version of the interactive dashboard created in Amazon QuickSight is included in this repository under the name Dashboard_summary.pdf. 
 This document provides a static view of key visualizations used in the analysis, including relationships between menstrual pain intensity and factors such as physical activity, 
 stress levels, and diet.
 
-2)The file queries_and_results.pdf contains the SQL queries used in AWS Athena along with a summary of their outputs. 
+2)The Queries.pdf contains the SQL queries used in AWS Athena along with a summary of their outputs. 
 It demonstrates how the analysis was conducted, including subgroup filtering, group-by aggregations, and exploratory comparisons.
 
 
