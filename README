@@ -20,31 +20,31 @@ It demonstrates how the analysis was conducted, including subgroup filtering, gr
 
 
 
-SQL Queries & Insights
+SQL queries & insights
 
-1. Pain Intensity vs. Perceived Stress
+1. Pain intensity vs. stress
 Calculated the average pain level for each reported stress score.
  Insight: Higher stress levels are associated with increased menstrual pain.
 
- 2. Pain Comparison: Smokers vs. Non-Smokers
+ 2. Pain comparison: smokers vs. non-smokers
 Grouped data by `smoking_status` and computed average pain intensity.
  Insight: Smokers experience slightly higher average pain.
 
-3. Pain vs. Fast Food & Processed Meat Consumption
+3. Pain vs. fastfood & processed meat consumption
 Grouped by `fast_food_frequency` and `processed_meat_frequency`.
- Insight: Certain dietary combinations show higher pain levels.
+ Insight: certain dietary combinations show higher pain levels.
 
- 4. Combined Analysis: Stress × Physical Activity
+ 4. Combined analysis: stress × physical activity
 Examined the interaction between perceived stress and physical activity levels.
- Insight: Physical activity may reduce the impact of stress on pain.
+ Insight: physical activity may reduce the impact of stress on pain.
 
- 5. Top 5 Pain-Intensifying Diet Combinations
+ 5. Top 5 poain-intensifying diet combinations
 Identified the most pain-associated combinations of fast food, meat, and fish intake.
- Insight: Specific eating patterns correlate with severe symptoms.
+ insight: Specific eating patterns correlate with severe symptoms.
 
- 6. Subgroup Analysis: BMI > 25 (Overweight)
+ 6. Subgroup analysis: BMI > 25 (overweight)
 Filtered for individuals with BMI > 25 and analyzed how activity and smoking affect pain.
- Insight: Overweight individuals who are sedentary or smoke show increased pain.
+ Insight: overweight individuals who are sedentary or smoke show increased pain.
 
 
 
